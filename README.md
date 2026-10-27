@@ -67,8 +67,8 @@ Both experiment scripts initialize the random seed once per run to `1520761101`.
 
 ## References and Source Repositories
 
-- [hoonose/robust-filter](https://github.com/hoonose/robust-filter), accompanying *Being Robust (in High Dimensions) Can Be Practical* (Diakonikolas et al., 2017): reference implementation for the filtering baseline and the genomic experiment setup.
-- [twistedcubic/que-outlier-detection](https://github.com/twistedcubic/que-outlier-detection), accompanying *Quantum Entropy Scoring for Fast Robust Mean Estimation and Improved Outlier Detection* (Dong, Hopkins, and Li, 2019): reference for the practical score-and-remove QUE subroutine.
-- [NovembreLab/Novembre_etal_2008_misc](https://github.com/NovembreLab/Novembre_etal_2008_misc), accompanying *Genes Mirror Geography in Europe* (Novembre et al., 2008): the preprocessed genomic data and sample color labels.
+- [hoonose/robust-filter](https://github.com/hoonose/robust-filter), *Being Robust (in High Dimensions) Can Be Practical* (Diakonikolas et al., 2017): reference implementation for the filtering baseline and the genomic experiment setup.
+- [twistedcubic/que-outlier-detection](https://github.com/twistedcubic/que-outlier-detection), *Quantum Entropy Scoring for Fast Robust Mean Estimation and Improved Outlier Detection* (Dong, Hopkins, and Li, 2019): reference for the practical score-and-remove QUE subroutine.
+- [NovembreLab/Novembre_etal_2008_misc](https://github.com/NovembreLab/Novembre_etal_2008_misc) *Genes Mirror Geography in Europe* (Novembre et al., 2008): the preprocessed genomic data and sample color labels.
 
 The iterative-refinement baselines are our implementations of the framework in [Cheng et al. (2019)](https://proceedings.mlr.press/v99/cheng19a.html), using either the PGD robust mean estimator of [Cheng et al. (2020)](https://proceedings.mlr.press/v119/cheng20a.html) or the QUE subroutine. Our modifications to the reference implementations and parameter choices are described in the paper's experimental appendix. 
