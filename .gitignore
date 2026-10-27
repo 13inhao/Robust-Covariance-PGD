@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Downloaded data and generated outputs
+/genomicData/
+/figs*/
+/results_*.npy
+/*_raw_error.pdf
